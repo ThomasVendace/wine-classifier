@@ -20,22 +20,22 @@ Ensure you have the following installed on your system:
 
 1. Python (>=3.8)
 2. Pip (latest version)
-3. Git (optional, for cloning the repository)
+3. Git
 
 ---
 
 ## Installation and Setup
 
 ### 1. Clone the project repository
-Clone the project from the GitHub repository.
+Clone the project from the GitHub repository, by running the following script in your terminal, after navigating to the directory, that you want to clone the project into.
 ```bash
 git clone https://github.com/ThomasVendace/wine-classifier.git
 ```
 
-### 2. Navigate to project directory on your machine
+### 2. Navigate to project directory on your machine.
 
 ### 3. Install dependencies
-Install the required Python packages:
+Install the required Python packages, by running the following in your terminal:
 ```bash
 pip install -r requirements.txt
 ```
