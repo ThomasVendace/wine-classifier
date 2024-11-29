@@ -3,6 +3,8 @@
 
 In essence, this project is a binary classifier, that predicts whether a wine sample is of **high quality** or **low quality** based on its physicochemical properties. The project uses machine learning techniques to train a Random Forest model and provides a command-line interface for inputting wine features and obtaining predictions.
 
+The wineQualityClassifier.ipynb-file, in the notebooks-folder has a step by step walkthrough of the model training, and data wrangling process.
+
 ---
 
 ## Features
@@ -26,13 +28,13 @@ Ensure you have the following installed on your system:
 
 ## Installation and Setup
 
-### 1. Clone the project repository
+### 1. Clone the project repository (this part can be skipped, if you already have the project directory on your machine)
 Clone the project from the GitHub repository, by running the following script in your terminal, after navigating to the directory, that you want to clone the project into.
 ```bash
 git clone https://github.com/ThomasVendace/wine-classifier.git
 ```
 
-### 2. Navigate to project directory on your machine.
+### 2. Navigate to project directory on your machine, and open your terminal.
 
 ### 3. Install dependencies
 Install the required Python packages, by running the following in your terminal:
