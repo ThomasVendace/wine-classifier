@@ -26,45 +26,33 @@ Ensure you have the following installed on your system:
 
 ## Installation and Setup
 
-### 1. Clone the Repository
-Clone the project from the GitHub repository (if hosted online):
+### 1. Clone the project repository
+Clone the project from the GitHub repository.
 ```bash
-git clone <repository-url>
-cd WineQualityClassifier
+git clone https://github.com/ThomasVendace/wine-classifier.git
 ```
 
-Alternatively, if you have the folder locally, navigate to it.
+### 2. Navigate to project directory on your machine
 
-### 2. Install Dependencies
+### 3. Install dependencies
 Install the required Python packages:
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Prepare the Data
+### 4. Prepare the data
 Ensure the following files are present in the `data/` directory:
 - `winequality-red.csv` (Red wine data)
 - `winequality-white.csv` (White wine data)
 
-### 4. Train the Model
-Run the `modelTrainer.py` script to train the model:
-```bash
-python src/modelTrainer.py
-```
 
-This script:
-- Combines the red and white wine datasets.
-- Removes outliers and scales the data.
-- Trains a Random Forest model.
-- Saves the trained model and scaler to the `src/joblibs/` directory.
-
-### 5. Run the Classifier
+### 5. Run the program
 Execute the `main.py` script to start the classifier:
 ```bash
 python src/main.py
 ```
 
-This script:
+This program:
 1. Presents an interactive menu.
 2. Accepts user inputs for wine features (or allows randomization).
 3. Loads the trained model and scaler.
@@ -74,14 +62,14 @@ This script:
 
 ## Usage
 
-### Interactive Features
+### Interactive features
 1. The program will prompt you to select the type of wine (`red` or `white`).
 2. Enter values for each feature manually or press `Enter` to randomize.
 3. The classifier will output whether the wine is **high quality** or **low quality**.
 
 ---
 
-## File Descriptions
+## File descriptions
 
 ### `modelTrainer.py`
 - Loads and preprocesses the wine datasets.
